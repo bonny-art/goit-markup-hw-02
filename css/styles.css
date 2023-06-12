@@ -75,11 +75,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue-color);
+  color: var(--iris-color);
 }
 
 .header-logo-accent {
-  color: var(--iris-color);
+  color: var(--navy-blue-color);
 }
 
 /* .header-nav {
@@ -110,7 +110,7 @@ button {
 } */
 
 .header-adress-link {
-  line-height: var(--main-line-height) x;
+  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
 }
 
