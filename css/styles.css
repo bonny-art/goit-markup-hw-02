@@ -66,8 +66,8 @@ button {
   |============================
 */
 
-.header {
-}
+/* .header {
+} */
 
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -83,14 +83,14 @@ button {
   color: var(--iris-color);
 }
 
-.header-nav {
-}
+/* .header-nav {
+} */
 
-.header-nav-list {
-}
+/* .header-nav-list {
+} */
 
-.header-nav-item {
-}
+/* .header-nav-item {
+} */
 
 .header-nav-link {
   font-weight: 500;
@@ -104,11 +104,11 @@ button {
   color: var(--ocean-color);
 }
 
-.header-adress-list {
-}
+/* .header-adress-list {
+} */
 
-.header-adress-item {
-}
+/* .header-adress-item {
+} */
 
 .header-adress-link {
   line-height: var(--main-line-height) x;
@@ -151,17 +151,17 @@ button {
   |============================
 */
 
-.advantages {
-}
+/* .advantages {
+} */
 
-.advantages-title {
-}
+/* .advantages-title {
+} */
 
-.advantages-list {
-}
+/* .advantages-list {
+} */
 
-.advantages-item {
-}
+/* .advantages-item {
+} */
 
 .advantages-item-title {
   font-weight: 500;
@@ -182,8 +182,8 @@ button {
   |============================
 */
 
-.selection {
-}
+/* .selection {
+} */
 
 .selection-title {
   font-size: 36px;
@@ -192,17 +192,17 @@ button {
   text-transform: capitalize;
 }
 
-.selection-list {
-}
+/* .selection-list {
+} */
 
-.selection-item {
-}
+/* .selection-item {
+} */
 
-.selection-img {
-}
+/* .selection-img {
+} */
 
-.portfilio-item {
-}
+/* .portfilio-item {
+} */
 
 /**
   |============================
@@ -222,14 +222,14 @@ button {
   color: var(--navy-blue-color);
 }
 
-.contacts-list {
-}
+/* .contacts-list {
+} */
 
-.contacts-item {
-}
+/* .contacts-item {
+} */
 
-.contacts-img {
-}
+/* .contacts-img {
+} */
 
 .contacts-name {
   font-weight: 500;
@@ -286,11 +286,11 @@ button {
   |============================
 */
 
-.filter-list {
-}
+/* .filter-list {
+} */
 
-.filter-item {
-}
+/* .filter-item {
+} */
 
 .filter-button {
   background-color: var(--cloud-color);
@@ -312,14 +312,14 @@ button {
   |============================
 */
 
-.portfolio-list {
-}
+/* .portfolio-list {
+} */
 
-.portfolio-item {
-}
+/* .portfolio-item {
+} */
 
-.portfolio-img {
-}
+/* .portfolio-img {
+} */
 
 .portfolio-item-title {
   font-weight: 500;
