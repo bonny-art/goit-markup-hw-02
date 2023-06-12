@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Effective Solutions for Your Business" />
+
+    <!-- User fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Normailzer -->
+    <!-- Check !!! -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+
+    <!-- User styles -->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
@@ -22,30 +29,34 @@
   <body>
     <!-- Header section-->
     <header class="header">
-      <nav>
-        <a class="logo" href="./index.html"
-          ><span class="logo-acent">Web</span>Studio</a
-        >
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="./index.html">Studio</a>
+      <a class="header-logo" href="./index.html"
+        ><span class="header-logo-accent">Web</span>Studio</a
+      >
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="./index.html">Studio</a>
           </li>
-          <li class="nav-item">
-            <a href="./portfolio.html">Portfolio</a>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item">
-            <a href="">Contacts</a>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
 
       <address>
-        <ul class="adress-list">
-          <li class="adress-item">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="header-adress-list">
+          <li class="header-adress-item">
+            <a class="header-adress-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="adress-item">
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="header-adress-item">
+            <a class="header-adress-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -60,32 +71,32 @@
 
       <!-- Advantages section -->
       <section class="advantages">
-        <h2 class="advantages-title">Advantages of WebStudio</h2>
+        <h2 class="advantages-title" hidden>Advantages of WebStudio</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-item-title">Strategy</h3>
-            <p class="advantages-text">
+            <p class="advantages-item-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Punctuality</h3>
-            <p class="advantages-text">
+            <p class="advantages-item-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Diligence</h3>
-            <p class="advantages-text">
+            <p class="advantages-item-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Technologies</h3>
-            <p class="advantages-text">
+            <p class="advantages-item-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -99,6 +110,7 @@
         <ul class="selection-list">
           <li class="selection-item">
             <img
+              class="selection-img"
               src="./images/main/selection/img-1.jpg"
               alt="Computer with opened site"
               width="360"
@@ -107,6 +119,7 @@
           </li>
           <li class="portfilio-item">
             <img
+              class="selection-img"
               src="./images/main/selection/img-2.jpg"
               alt="Mobile phone with opened app"
               width="360"
@@ -115,6 +128,7 @@
           </li>
           <li class="portfilio-item">
             <img
+              class="selection-img"
               src="./images/main/selection/img-3.jpg"
               alt="Mobile phone with opened site"
               width="360"
@@ -130,6 +144,7 @@
         <ul class="contacts-list">
           <li class="contacts-item">
             <img
+              class="contacts-img"
               src="./images/main/contacts/team-1.jpg"
               alt="Mark Guerrero Product Designer"
               width="264"
@@ -140,6 +155,7 @@
           </li>
           <li class="contacts-item">
             <img
+              class="contacts-img"
               src="./images/main/contacts/team-2.jpg"
               alt="Tom Ford Frontend Developer"
               width="264"
@@ -150,6 +166,7 @@
           </li>
           <li class="contacts-item">
             <img
+              class="contacts-img"
               src="./images/main/contacts/team-3.jpg"
               alt="Camila Garcia Marketing"
               width="264"
@@ -160,6 +177,7 @@
           </li>
           <li class="contacts-item">
             <img
+              class="contacts-img"
               src="./images/main/contacts/team-4.jpg"
               alt="Daniel Wilson UI Designer"
               width="264"
@@ -174,8 +192,8 @@
 
     <!-- Footer section -->
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        ><span class="logo-acent">Web</span>Studio</a
+      <a class="footer-logo" href="./index.html"
+        ><span class="footer-logo-accent">Web</span>Studio</a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
