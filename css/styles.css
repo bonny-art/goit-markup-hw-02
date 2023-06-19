@@ -54,8 +54,9 @@ address {
   font-style: normal;
 }
 
-button {
+.button {
   font-family: inherit;
+  line-height: var(--main-line-height);
   cursor: pointer;
 }
 
@@ -93,7 +94,6 @@ button {
 
 .header-nav-link {
   font-weight: 500;
-  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
@@ -110,7 +110,6 @@ button {
 } */
 
 .header-adress-link {
-  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
 }
 
@@ -140,7 +139,6 @@ button {
 .hero-button {
   background-color: var(--iris-color);
   font-weight: 500;
-  line-height: var(--main-line-height);
   letter-spacing: 0.04em;
   color: inherit;
 }
@@ -177,7 +175,6 @@ button {
 }
 
 .advantages-item-text {
-  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
 }
 
@@ -194,8 +191,8 @@ button {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
 
@@ -225,8 +222,8 @@ button {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--navy-blue-color);
 }
 
@@ -250,7 +247,6 @@ button {
 }
 
 .contacts-position {
-  line-height: var(--main-line-height);
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -280,7 +276,6 @@ button {
 }
 
 .footer-text {
-  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
   color: var(--cloud-color);
 }
@@ -306,7 +301,6 @@ button {
 .filter-button {
   background-color: var(--cloud-color);
   font-weight: 500;
-  line-height: var(--main-line-height);
   letter-spacing: 0.04em;
   color: var(--iris-color);
 }
@@ -341,6 +335,5 @@ button {
 }
 
 .portfolio-item-text {
-  line-height: var(--main-line-height);
   letter-spacing: 0.02em;
 }
