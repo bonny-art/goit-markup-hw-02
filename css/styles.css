@@ -1,4 +1,7 @@
+/* #region Global */
+
 :root {
+  /* Color Variables */
   --cl-iris: rgb(77, 90, 229);
   --cl-ocean: rgb(64, 75, 191);
   --cl-navy-blue: rgb(46, 47, 66);
@@ -11,8 +14,6 @@
   --cl-white: rgb(255, 255, 255);
 }
 
-/* #region Common */
-
 body {
   font-family: 'Roboto', sans-serif;
 
@@ -22,7 +23,7 @@ body {
 
 button {
   cursor: pointer;
-  border: none;
+  /* border: none; */
 }
 
 a {
@@ -41,7 +42,17 @@ address {
 
 /* #endregion */
 
-.container {
+/* #region Common */
+
+.title {
+  text-align: center;
+  text-transform: capitalize;
+
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+
+  color: var(--cl-navy-blue);
 }
 
 .logo {
@@ -62,17 +73,6 @@ address {
   color: var(--cl-cloud);
 }
 
-.title {
-  text-align: center;
-  text-transform: capitalize;
-
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-
-  color: var(--cl-navy-blue);
-}
-
 .btn {
   background: var(--cl-iris);
 
@@ -88,7 +88,9 @@ address {
   background: var(--cl-ocean);
 }
 
-/* #region Header */
+/* #endregion */
+
+/* #region Layout: Header */
 
 .header {
 }
@@ -144,7 +146,7 @@ address {
 
 /* #endregion */
 
-/* #region Hero */
+/* #region Layout: Hero */
 
 .hero {
   background: var(--cl-navy-blue);
@@ -168,7 +170,7 @@ address {
 
 /* #endregion */
 
-/* #region Values */
+/* #region Layout: Values */
 
 .values {
 }
@@ -201,7 +203,7 @@ address {
 
 /* #endregion */
 
-/* #region Team */
+/* #region Layout: Team */
 
 .team {
   background-color: var(--cl-cloud);
@@ -243,7 +245,7 @@ address {
 
 /* #endregion */
 
-/* #region Portfolio */
+/* #region Layout: Portfolio */
 
 .portfolio {
 }
@@ -279,7 +281,7 @@ address {
 
 /* #endregion */
 
-/* #region Footer */
+/* #region Layout: Footer */
 
 .footer {
   background: var(--cl-navy-blue);
