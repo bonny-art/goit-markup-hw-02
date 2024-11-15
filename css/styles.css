@@ -39,10 +39,10 @@ address {
   font-style: normal;
 }
 
+/* #endregion */
+
 .container {
 }
-
-/* #endregion */
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -64,12 +64,28 @@ address {
 
 .title {
   text-align: center;
+  text-transform: capitalize;
 
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 
   color: var(--cl-navy-blue);
+}
+
+.btn {
+  background: var(--cl-iris);
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--WHITE, #fff);
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--cl-ocean);
 }
 
 /* #region Header */
@@ -96,6 +112,13 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  color: var(--cl-navy-blue);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--cl-ocean);
 }
 
 .header-adress {
@@ -112,6 +135,11 @@ address {
   letter-spacing: 0.02em;
 
   color: var(--cl-slate);
+}
+
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: var(--cl-ocean);
 }
 
 /* #endregion */
@@ -136,14 +164,6 @@ address {
 }
 
 .hero-btn {
-  background: var(--cl-iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-
-  color: var(--WHITE, #fff);
 }
 
 /* #endregion */
@@ -184,6 +204,7 @@ address {
 /* #region Team */
 
 .team {
+  background-color: var(--cl-cloud);
 }
 
 .team-container {
@@ -196,6 +217,7 @@ address {
 }
 
 .team-item {
+  background-color: var(--cl-white);
 }
 
 .team-item-img {
